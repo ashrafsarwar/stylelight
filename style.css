@@ -20,7 +20,7 @@
 }
 
 @font-face {
-  font-family: "PP Eiko";
+  font-family: "PP Eiko", sans-serif;
   src: url("/fonts/PP Eiko/PPEiko-Lightitalic.otf") format("opentype");
   font-weight: 340; /* Changed to 300 */
   font-style: italic;
