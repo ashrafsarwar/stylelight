@@ -22,13 +22,13 @@
 @font-face {
   font-family: "PP Eiko";
   src: url("/fonts/PP Eiko/PPEiko-ThinItalic.otf") format("opentype");
-  font-weight: 300;
+  font-weight: 340;
   font-style: italic;
 }
 
 ppeiko-lightitalic body {
   font-family: "PP Eiko", sans-serif;
-  font-weight: 300;
+  font-weight: 340;
   background-color: #ffffff;
   color: #333333;
   margin: 0;
