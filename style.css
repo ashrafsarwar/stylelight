@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "PP Eiko";
+  src: url("/fonts/PP Eiko/PPEiko-Thin.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Eiko";
+  src: url("/fonts/PP Eiko/PPEiko-Medium.otf") format("opentype");
+  font-weight: 500; /* Medium font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Eiko";
+  src: url("/fonts/PP Eiko/PPEiko-Heavy.otf") format("opentype");
+  font-weight: 800; /* Heavy font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Eiko";
+  src: url("/fonts/PP Eiko/PPEiko-ThinItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+ppeiko-lightitalic body {
+  font-family: "PP Eiko", sans-serif;
+  font-weight: 300;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.style-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.style-light-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px;
+}
+
+.style-light-header {
+  display: flex;
+  align-self: flex-end;
+}
+
+.style-light-header a {
+  color: #000000;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.logo-container img {
+  width: 600px;
+  height: 140px;
+}
+
+.style-hero {
+}
+
+.style-hero p {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 340;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+.style-light-content {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  margin-top: 150px;
+  gap: 20px;
+}
+
+.style-light-content p {
+  font-size: 18px;
+  font-weight: 340;
+}
