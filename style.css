@@ -48,11 +48,13 @@ ppeiko-lightitalic body {
 }
 
 .style-light-header {
+  font-family: "PP Eiko", sans-serif;
   display: flex;
   align-self: flex-end;
 }
 
 .style-light-header a {
+  font-weight: 340px;
   color: #000000;
   font-weight: 200;
   font-size: 16px;
@@ -67,7 +69,6 @@ ppeiko-lightitalic body {
 }
 
 .style-hero p {
-  font-family: "PP Eiko", sans-serif;
   font-style: italic;
   font-size: 18px;
   font-weight: 340;
