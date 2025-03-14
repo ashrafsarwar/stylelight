@@ -68,7 +68,7 @@ body {
 .style-hero p {
   font-family: "PP Eiko", sans-serif;
   font-style: italic;
-  font-weight: 140; /* Matching the weight declared for ThinItalic */
+  font-weight: 240; /* Matching the weight declared for ThinItalic */
   font-size: 24px;
   margin-top: -10px;
   margin-left: 20px;
