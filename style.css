@@ -33,6 +33,7 @@ body {
   color: #333333;
   margin: 0;
   padding: 0;
+  max-height: 100vh;
 }
 
 .style-light {
@@ -43,8 +44,10 @@ body {
 .style-light-container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   margin: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .style-light-header {
@@ -61,8 +64,12 @@ body {
 }
 
 .logo-container img {
-  width: 600px;
-  height: 140px;
+  width: 700px;
+  height: 160px;
+}
+
+.style-light-content {
+  max-width: 55%;
 }
 
 .style-hero p {
@@ -86,4 +93,5 @@ body {
   font-family: "PP Eiko", sans-serif;
   font-size: 18px;
   font-weight: 340;
+  margin-top: -10px;
 }
