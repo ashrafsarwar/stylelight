@@ -46,8 +46,8 @@ body {
   flex-direction: column;
   gap: 30px;
   margin: 50px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .style-light-header {
@@ -69,7 +69,7 @@ body {
 }
 
 .style-light-content {
-  max-width: 55%;
+  max-width: 50%;
 }
 
 .style-hero p {
