@@ -87,6 +87,7 @@ body {
   flex-direction: column;
   margin-top: 150px;
   gap: 20px;
+  position: relative;
 }
 
 .style-light-content p {
@@ -94,4 +95,5 @@ body {
   font-size: 18px;
   font-weight: 340;
   margin-top: -10px;
+  text-align: right;
 }
