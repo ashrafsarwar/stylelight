@@ -44,7 +44,8 @@ body {
 .style-light-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  justify-content: space-between;
+  height: 100%;
   margin: 50px;
   margin-left: 90px;
   margin-right: 90px;
@@ -65,11 +66,17 @@ body {
 
 .logo-container img {
   width: 700px;
-  height: 160px;
+  height: 140px;
+}
+
+.style-hero {
+  margin-top: 80px;
+  margin-left: -20px;
 }
 
 .style-light-content {
-  max-width: 50%;
+  max-width: 65%;
+  margin-top: 50px;
 }
 
 .style-hero p {
@@ -77,7 +84,7 @@ body {
   font-style: italic;
   font-weight: 240; /* Matching the weight declared for ThinItalic */
   font-size: 24px;
-  margin-top: -10px;
+  margin-top: -5px;
   margin-left: 20px;
 }
 
@@ -85,9 +92,9 @@ body {
   display: flex;
   align-self: flex-end;
   flex-direction: column;
-  margin-top: 150px;
   gap: 20px;
   position: relative;
+  margin-top: 150px;
 }
 
 .style-light-content p {
